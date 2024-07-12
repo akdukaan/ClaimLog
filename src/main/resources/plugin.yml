@@ -1,0 +1,11 @@
+name: ClaimLog
+version: '${project.version}'
+main: com.birdflop.claimlog.ClaimLog
+api-version: '1.20'
+depend: [GriefPrevention]
+authors: [DrBot]
+commands:
+  claimlog:
+    description: shows claim history for claim or player
+    permission: claimlog.command
+    usage: /claimlog player|claim|here
